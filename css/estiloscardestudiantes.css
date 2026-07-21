@@ -1,0 +1,116 @@
+.fila-estudiante{
+    
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+    gap: 25px;
+
+}
+.card-estudiante{
+    flex: 1 0 500px;
+    width: 49%;
+    background-color: var(--bg-card);
+    border-radius: 8px;
+    
+    padding: 15px;
+    display: flex;    
+    justify-content: space-between;
+    
+}
+.est-1{
+    background-image: url(../img/roger.jpeg);
+}
+.est-5{
+    background-image: url(../img/Jhozep.png);
+}
+.est-6{
+    background-image: url(../img/liria2.png);
+}
+.est-7{
+    background-image: url(../img/julian.jpeg);
+}
+.est-11{
+    background-image: url(../img/yordi.jpeg);
+}
+.est-17{
+    background-image: url(../img/cristofer.jpeg);
+}
+.est-19{
+    background-image: url(../img/ulises.jpeg);
+}
+.est-20{
+    background-image: url(../img/flor2.png);
+}
+.est-21{
+    background-image: url(../img/emilia.png);
+}
+.est-23{
+    background-image: url(../img/esteban.jpeg);
+}
+
+
+.foto-estudiante{
+    
+    background-position: 60% center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 50%;    
+    border-bottom-right-radius: 50%;
+    /*border-radius: 50%;*/
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    width: 38%;
+    height: 100%;
+    /*clip-path: polygon(
+        0% 0%, 
+        75% 1%, 
+        100% 50%, 
+        75% 100%, 
+        0% 100%
+    );*/
+    /*clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);*/
+    
+}
+
+.contenido-estudiante{
+    width: 58%;
+    height: auto;
+    background-color: var(--blue-50);
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.contenido-estudiante p{
+    padding-bottom: 15px;
+    text-align: justify;
+    background-color: var(--bg-body);
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+
+.enlace-proyectos{
+    display: block;
+    background-color: var(--brand-blue);
+    color: var(--btn-primary-text);
+    padding: 10px 50px;
+    border-style: none;
+    margin: 0 auto;
+    margin-top:15px;
+    margin-bottom:15px;
+    border-radius: 5px;
+    transition: all 0.6s;
+    
+}
+.enlace-proyectos:hover{
+    transform: scale(1.05);
+    transform: translateY(15%);
+    background-color: var(--blue-800);
+}
