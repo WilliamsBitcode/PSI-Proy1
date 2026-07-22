@@ -741,6 +741,7 @@ footer{
 }
 .redes{
     width:100%;
+    border:2px solid white;
 }
 footer .redes i {
     color: #ffffff; /* Blanco puro, o el color claro que prefieras */
