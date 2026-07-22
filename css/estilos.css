@@ -619,6 +619,10 @@ main{
 .est-1{
     background-image: url(../img/roger.jpeg);
 }
+.est-2{
+    background-image: url(../img/leysi.png);
+    background-position: center 20%;
+}
 .est-4{
     background-image: url(../img/cristian.jpeg);
     background-position: center 10%;
