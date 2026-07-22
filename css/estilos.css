@@ -739,10 +739,7 @@ footer{
     font-family: var(--fuente-logo);
      font-size: 13px;
 }
-.redes{
-    width:100%;
-    border-bottom:2px solid white;
-}
+
 footer .redes i {
     color: #ffffff; /* Blanco puro, o el color claro que prefieras */
 }
