@@ -187,6 +187,10 @@ body{
 
 .logo{
     width: 60px;
+    transition: transform 0.4s ease;
+}
+.logo:hover{
+    transform: rotate(-15deg);
 }
 
 /*Fin Logo y texto*/
